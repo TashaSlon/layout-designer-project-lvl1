@@ -7,7 +7,9 @@
     "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
   "main": "",
-  "dependencies": {},
+  "dependencies": {
+    "make": "^0.8.1"
+  },
   "devDependencies": {
     "htmlhint": "^0.14.2",
     "stylelint": "^13.8.0",
