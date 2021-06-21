@@ -55,6 +55,8 @@ h4 {
 }
 
 header {
+  position: relative;
+
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -64,7 +66,7 @@ header {
   position: relative;
 
   max-width: 1110px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 header::before {
@@ -85,9 +87,9 @@ header::before {
   content: "";
 }
 
-.block img {
+header img {
   position: absolute;
-  top: -55px;
+  top: 55px;
   right: -270px;
 
   height: 525px;
@@ -96,7 +98,7 @@ header::before {
 .block > h1 {
   position: relative;
 
-  margin: 100px auto 185px;
+  margin: 0 auto 185px;
 }
 
 .color-main {
@@ -134,13 +136,13 @@ header::before {
 }
 
 .block-2 {
-  margin-bottom: -100px;
+  margin-bottom: -200px;
 
   text-align: center;
 }
 
 .block-2 h2 {
-  margin: 200px auto 30px;
+  margin: 0 auto 30px;
 }
 
 .video {
@@ -149,8 +151,62 @@ header::before {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.block-3 {
-  z-index: -1;
-
+.nav {
   background-color: var(--dark-main);
+}
+
+.block-3 {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.block-3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.block-3 h3 {
+  color: var(--main);
+}
+
+.nav-text {
+  margin: 0;
+
+  color: var(--white);
+  font-size: 52px;
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+}
+
+.card {
+  padding: 24px;
+
+  background-color: var(--light);
+}
+
+.card:hover {
+  color: var(--white);
+
+  background-color: var(--main);
+}
+
+.card:hover h3 {
+  color: var(--white);
+}
+
+.cell {
+  display: flex;
+  width: 350px;
+  margin: 10px 10px;
+}
+
+.number {
+  margin: 0 0 40px;
+
+  font-size: 64px;
+  font-family: "Neucha", sans-serif;
+  line-height: 1em;
 }
