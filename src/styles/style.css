@@ -76,7 +76,7 @@ h3 {
   width: 100%;
   height: 914px;
 
-  background-color: var(--trans-white);
+  background-color: var(--brown);
   background-image: url("../img/background.png");
 
   background-repeat: no-repeat;
@@ -228,9 +228,14 @@ header img {
 }
 
 .block-subtotal {
+  color: var(--trans-dark);
   font-size: 24px;
   font-family: "Neucha", sans-serif;
   line-height: 1.2em;
+}
+
+.reverse .block-subtotal {
+  color: var(--trans-white);
 }
 
 .block-description {
@@ -264,10 +269,15 @@ header img {
   background-color: var(--white);
 }
 
-.block-5 img {
+.block-5 img,
+.block-7 img {
   margin-left: 30px;
 }
 
 .block-6 img {
   margin-right: 30px;
+}
+
+.block-7 .column p:first-child {
+  margin-bottom: 78px;
 }
