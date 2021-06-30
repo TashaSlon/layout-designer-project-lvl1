@@ -185,22 +185,6 @@ header img {
   line-height: 1.2em;
 }
 
-.card {
-  padding: 24px;
-
-  background-color: var(--light);
-}
-
-.card:hover {
-  color: var(--white);
-
-  background-color: var(--main);
-}
-
-.card:hover h3 {
-  color: var(--white);
-}
-
 .cell {
   display: flex;
   width: 350px;
@@ -285,4 +269,106 @@ header img {
 
 .block-8 .column p:first-child {
   margin-bottom: 34px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  padding: 55px;
+
+  color: var(--white);
+
+  background-color: var(--dark-main);
+}
+
+.footer-form > * {
+  flex-grow: 1;
+}
+
+.footer-form h3 {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 9px;
+
+  font-size: 18px;
+}
+
+.form-agreement {
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.form-agreement a {
+  color: var(--white);
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 15px;
+
+  border: none;
+}
+
+.form-input::placeholder {
+  color: rgba(117, 117, 117, 0.2);
+}
+
+.form-button {
+  width: 70px;
+  height: 50px;
+
+  border: none;
+
+  background-color: var(--main);
+}
+
+.form-button::before {
+  display: flex;
+  justify-content: center;
+
+  content: url("../img/send.svg");
+}
+
+.footer-bottom {
+  margin-top: 60px;
+
+  color: #000;
+  font-size: 14px;
+
+  text-align: center;
+}
+
+.footer-bottom a {
+  color: var(--blue);
+}
+
+.card {
+  padding: 24px;
+
+  background-color: var(--light);
+}
+
+.card:hover {
+  color: var(--white);
+
+  background-color: var(--main);
+}
+
+.card:hover h3 {
+  color: var(--white);
 }
