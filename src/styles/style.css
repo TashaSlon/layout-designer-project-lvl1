@@ -39,6 +39,8 @@ h1 {
 }
 
 h2 {
+  margin: 0;
+
   font-weight: normal;
   font-size: 60px;
   font-family: "Neucha", sans-serif;
@@ -212,6 +214,8 @@ header img {
 }
 
 .block-subtotal {
+  margin: 0;
+
   color: var(--trans-dark);
   font-size: 24px;
   font-family: "Neucha", sans-serif;
