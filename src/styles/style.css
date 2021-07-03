@@ -101,7 +101,7 @@ header img {
 .block > h1 {
   position: relative;
 
-  margin: 0 auto 185px;
+  margin: 0 auto;
 }
 
 .color-main {
@@ -114,7 +114,7 @@ header img {
 }
 
 .block-main .column {
-  margin-top: 185px;
+  margin-top: 200px;
 }
 
 .column p {
@@ -133,6 +133,8 @@ header img {
 
   color: var(--white);
   font-weight: bold;
+  font-size: 16px;
+  line-height: 1.6em;
   text-transform: uppercase;
 
   background-color: var(--main);
@@ -274,24 +276,22 @@ header img {
 .footer-form {
   display: flex;
   align-items: center;
-  padding: 55px;
+  padding: 38px 55px;
 
   color: var(--white);
 
   background-color: var(--dark-main);
 }
 
-.footer-form > * {
-  flex-grow: 1;
-}
-
 .footer-form h3 {
+  flex-grow: 1;
   margin: 0;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  flex-grow: 1.4;
 }
 
 .form-label {
@@ -345,7 +345,7 @@ header img {
 }
 
 .footer-bottom {
-  margin-top: 60px;
+  margin-top: 76px;
 
   color: #000;
   font-size: 14px;
