@@ -169,6 +169,7 @@ header img {
 .block-3 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   padding-top: 200px;
 }
@@ -179,6 +180,8 @@ header img {
 }
 
 .block-3 h3 {
+  margin: 40px 0 16px;
+
   color: var(--main);
 }
 
@@ -194,7 +197,12 @@ header img {
 .cell {
   display: flex;
   width: 350px;
-  margin: 10px 10px;
+  height: 348px;
+  margin: 10px 0;
+}
+
+.cell:nth-child(-n+3) {
+  height: 323px;
 }
 
 .number {
